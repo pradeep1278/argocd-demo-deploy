@@ -19,3 +19,5 @@ spec:
         name: demo
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: mydockercredentials
