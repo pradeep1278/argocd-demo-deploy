@@ -24,5 +24,3 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
-      imagePullSecrets:
-        - name: mydockercredentials
