@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: 10.101.209.206:8761/dockertest:e0b0d1d992c9dbf6843a3da0903f759e097c0b8e
+        image: 10.101.209.206:8761/dockertest:44c4b23f684add3d1d5577a2d70bbad9dc91e255
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
