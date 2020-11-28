@@ -7,6 +7,6 @@ patchesStrategicMerge:
 
 images:
 - name: 10.101.209.206:8761/dockertest
-  newTag: eb745f72058fa77e4a14fc552341c3e405f2dd2e
+  newTag: deab36370eebeef4ae6c27ed4e4eb205705a98b1
 resources:
 - ../base
