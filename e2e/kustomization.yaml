@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-- ../base
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
 - name: 10.101.209.206:8761/dockertest
-  newTag: 3f97730543c5f71f8ae77af9037b65e5e54ac50d
+  newTag: eb745f72058fa77e4a14fc552341c3e405f2dd2e
+resources:
+- ../base
